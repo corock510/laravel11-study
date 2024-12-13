@@ -1,13 +1,7 @@
-@extends('components.layouts.app')
+<div>
+    <h2>{{ $count }}</h2>
 
-@section('title', 'Counter')
+    <button wire:click="increment">+</button>
 
-@section('content')
-    <div>
-        <h1>{{ $count }}</h1>
-
-        <button wire:click="increment">+</button>
-
-        <button wire:click="decrement">-</button>
-    </div>
-@endsection
+    <button wire:click="decrement">-</button>
+</div>
