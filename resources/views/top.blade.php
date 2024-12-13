@@ -4,5 +4,5 @@
 
 @section('content')
     <h1>Livewire Example</h1>
-    @livewire('counter')
+    @livewire('top_counter')
 @endsection

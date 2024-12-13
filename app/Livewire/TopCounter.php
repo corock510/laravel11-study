@@ -4,7 +4,7 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class Counter extends Component
+class TopCounter extends Component
 {
     public $count = 1;
 

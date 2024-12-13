@@ -2,11 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TopController;
-use App\Livewire\Counter;
+use App\Livewire\TopCounter;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('/top', [TopController::class, 'show']);
-Route::get('/counter', Counter::class);
+Route::get('/counter', TopCounter::class);
